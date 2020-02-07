@@ -1,5 +1,4 @@
-#include "img_tools.hh"
-
+#include "../include/img_tools.hh"
 
 FIBITMAP *load_img(const char *src) {
     FIBITMAP *bitmap = FreeImage_Load(FIF_PNG, src, PNG_DEFAULT);

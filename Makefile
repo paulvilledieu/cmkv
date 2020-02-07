@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall -Werror -pedantic  -O3 -std=c++14
+CFLAGS=-Wall -pedantic  -O5 -std=c++17
 BIN=cmkv
 INC=include/
 LIB=lib/FreeImage/
